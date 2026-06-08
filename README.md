@@ -86,21 +86,3 @@ task6/
 | `LIMIT 3` | Restricting to top N results |
 | `WHERE date BETWEEN` | Filtering specific time periods |
 | `COALESCE / NULL handling` | Documented in interview Q&A section |
-
----
-
-## Interview Q&A (Summary)
-
-1. **Group by month/year** → Use `strftime('%Y-%m', date)` in SQLite, or `EXTRACT()` in PostgreSQL/MySQL, then `GROUP BY` the extracted values.
-
-2. **COUNT(\*) vs COUNT(DISTINCT col)** → `COUNT(*)` counts all rows including duplicates; `COUNT(DISTINCT col)` counts only unique non-NULL values.
-
-3. **Monthly revenue** → `SUM(amount)` after grouping by year+month.
-
-4. **Aggregate functions** → Functions like `SUM()`, `COUNT()`, `AVG()`, `MIN()`, `MAX()` that reduce multiple rows to a single value per group.
-
-5. **NULL handling** → Aggregates skip NULLs by default. Use `COALESCE(col, 0)` to replace NULLs before aggregation if needed.
-
-6. **GROUP BY vs ORDER BY** → `GROUP BY` collapses rows; `ORDER BY` sorts the final output. They serve different purposes.
-
-7. **Top 3 months** → `GROUP BY` month → `ORDER BY total_revenue DESC` → `LIMIT 3`.
