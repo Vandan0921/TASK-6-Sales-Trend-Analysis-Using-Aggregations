@@ -1,0 +1,49 @@
+year_month,product_category,category_revenue,orders
+2024-01,Electronics,7999.9,6
+2024-01,Home Appliances,2169.94,5
+2024-01,Clothing,1789.84,5
+2024-01,Sports,1579.83,5
+2024-01,Beauty Products,699.95,5
+2024-01,Books,308.86,5
+2024-02,Sports,2993.87,5
+2024-02,Electronics,2899.88,4
+2024-02,Home Appliances,2869.92,5
+2024-02,Clothing,1284.81,5
+2024-02,Books,422.91,5
+2024-02,Beauty Products,331.98,5
+2024-03,Home Appliances,5059.91,5
+2024-03,Electronics,4499.9,6
+2024-03,Sports,1609.84,5
+2024-03,Clothing,1009.76,5
+2024-03,Beauty Products,417.0,5
+2024-03,Books,252.83,5
+2024-04,Electronics,6709.91,5
+2024-04,Sports,2559.8,5
+2024-04,Home Appliances,1989.85,5
+2024-04,Clothing,769.8,5
+2024-04,Books,220.85,5
+2024-04,Beauty Products,201.48,5
+2024-05,Electronics,4198.96,5
+2024-05,Home Appliances,1989.82,6
+2024-05,Sports,1159.66,5
+2024-05,Clothing,829.88,5
+2024-05,Books,149.87,5
+2024-05,Beauty Products,127.3,5
+2024-06,Electronics,3599.93,5
+2024-06,Home Appliances,1479.89,5
+2024-06,Sports,1365.93,5
+2024-06,Clothing,579.45,5
+2024-06,Beauty Products,209.49,5
+2024-06,Books,149.86,5
+2024-07,Electronics,2006.97,5
+2024-07,Sports,1648.88,5
+2024-07,Home Appliances,1417.87,5
+2024-07,Clothing,1095.48,6
+2024-07,Beauty Products,464.0,5
+2024-07,Books,163.88,5
+2024-08,Electronics,3066.96,4
+2024-08,Home Appliances,1668.96,4
+2024-08,Sports,1408.71,5
+2024-08,Clothing,769.91,4
+2024-08,Books,192.87,5
+2024-08,Beauty Products,170.7,5
